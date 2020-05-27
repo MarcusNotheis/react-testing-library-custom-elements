@@ -3,7 +3,7 @@ import { render } from "@testing-library/react";
 import App from "./App";
 import { MyWebComponent } from "./MyWebComponent";
 
-test("renders learn react link", () => {
+test("without web component", () => {
   const { asFragment } = render(<App />);
   expect(asFragment()).toMatchSnapshot();
 });
