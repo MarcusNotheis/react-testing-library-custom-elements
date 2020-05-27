@@ -1,16 +1,5 @@
 import React from "react";
 import "./styles.css";
-import "@ui5/webcomponents/dist/Button.js";
-
-// class MyWebComponent extends HTMLElement {
-//   connectedCallback() {
-//     this.innerHTML = `<b>${this.getAttribute("text")}!</b>`;
-//   }
-// }
-
-// if (!customElements.get("my-webcomponent")) {
-//   customElements.define("my-webcomponent", MyWebComponent);
-// }
 
 export default function App() {
   return (
