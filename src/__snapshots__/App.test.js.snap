@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders learn react link 1`] = `
+<DocumentFragment>
+  <div
+    class="App"
+  >
+    <h1>
+      Hello CodeSandbox
+    </h1>
+    <h2>
+      Start editing to see some magic happen!
+    </h2>
+    <my-webcomponent
+      text="This is my Web Component"
+    />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`with web component 1`] = `
+<DocumentFragment>
+  <div
+    class="App"
+  >
+    <h1>
+      Hello CodeSandbox
+    </h1>
+    <h2>
+      Start editing to see some magic happen!
+    </h2>
+    MyWebComponent {
+      "anyOtherInstanceAttribute": "123",
+    }
+  </div>
+</DocumentFragment>
+`;
